@@ -1,0 +1,16 @@
+[package]
+name = "poker-player-rust"
+version = "0.1.0"
+authors = ["Bence Kiglics <bence.kiglics@gmail.com>"]
+
+[dependencies]
+iron = "0.4.0"
+
+[dependencies.bodyparser]
+git = "https://github.com/iron/body-parser.git"
+
+[[bin]]
+name = "player"
+
+[lib]
+name = "player"
